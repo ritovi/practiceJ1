@@ -1,7 +1,8 @@
-import Counter from "./components/Counter";
+import Counter from "./components/Counter"
 import Practice1 from "./components/Practice1"
+import ConditionalRendering from "./components/Conditional"
 
-import people from "./utils/people";
+import people from "./utils/people"
 
 const {person1, person2, person3, person4} = people;
 
@@ -15,6 +16,7 @@ function App() {
       <Practice1 person={person3} backGround={"bg-indigo-200"}/>
       <Practice1 person={person4} backGround={"bg-teal-200"}/>
       <Counter/>
+      <ConditionalRendering/>
     </div>
      
 
